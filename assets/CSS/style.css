@@ -9,8 +9,36 @@
 body{
     font-family: Quicksand, sans-serif;
     font-weight: 400;
+    color: #041c3b;
 }
+
+/* headings and logo */
 
 h1, h2 {
     font-family: Poppins, sans-serif;
+    letter-spacing: 2px;
+    color: #041c3b;
 }
+
+#logo{
+    float: left;
+    margin-left: 20px;
+}
+
+#menu li{
+    float: right;
+    font-size: 110%;
+    list-style-type: none;
+    margin-right: 20px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+#menu a:hover {
+    text-decoration: underline;
+}
+
