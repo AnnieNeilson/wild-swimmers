@@ -42,3 +42,9 @@ h1, h2 {
     text-decoration: underline;
 }
 
+ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap:wrap;
+}
+
