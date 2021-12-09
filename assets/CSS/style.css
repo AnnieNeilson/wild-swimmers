@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand&display=swap');
+
 
 
 * {
@@ -84,18 +85,29 @@ h1, h2 {
 /* Introduction */
 
 #introduction{
-    height: 600px ;
-    /* background: url('../images/family.jpeg') no-repeat center center; */
-}
-
-#introduction h1, .about{
     width: 66%;
     margin: 0 auto;
     text-align: center;
 }
 
-#introduction h1{
+#introduction h2{
     font-size: 250%;
+}
+
+.about{
+    font-size: 180%;
+}
+
+.about-section{
+    height: 25%;
+    margin-top: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
 
 
