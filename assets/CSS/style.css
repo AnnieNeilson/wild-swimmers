@@ -81,4 +81,23 @@ h1, h2 {
     position: absolute;
 }
 
+/* Introduction */
+
+#introduction{
+    height: 600px ;
+    /* background: url('../images/family.jpeg') no-repeat center center; */
+}
+
+#introduction h1, .about{
+    width: 66%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#introduction h1{
+    font-size: 250%;
+}
+
+
+
 
