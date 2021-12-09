@@ -58,4 +58,23 @@ h1, h2 {
 
 }
 
+#cover-text, #cover-text h2{
+    color: white;
+
+}
+
+#cover-text{
+    font-size: 140%;
+    font-family: Poppins, sans-serif;
+    letter-spacing: 2px;
+    width: 500px;
+    height: 150px;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: rgba(4, 28, 59, .7);
+    bottom: 300px;
+    left: 150px;
+    position: absolute;
+}
+
 
