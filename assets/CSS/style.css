@@ -89,6 +89,7 @@ h1, h2 {
     width: 66%;
     margin: 0 auto;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 #introduction h2{
@@ -104,6 +105,7 @@ h1, h2 {
     margin-top: 50px;
 }
 
+
 a {
     text-decoration: none;
 }
@@ -112,19 +114,24 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Times Section */
 
-
-#meeting-times{
-    height: 600px;
-    width: 100% ;
+#times{
     background: url('../images/sea-swimmers.jpeg') no-repeat center center;
     overflow: hidden;
 }
 
+#meeting-times, #events-times{
+    height: 600px;
+    width: 50% ;
+    float:left ;
+    margin: 0 auto;
+}
 
 
-#times-box-header{
-    width: 35%;
+
+#times-box-header, #events-box-header{
+    width: 85%;
     outline: none;
     overflow: auto;
     margin-top: 50px;
@@ -132,9 +139,9 @@ a:hover {
     background-color: rgba(4, 28, 59, .7);
 }
 
-#times-box{
+#times-box, #events-box{
     height: 300px;
-    width: 35%;
+    width: 85%;
     outline: none;
     overflow: auto;
     background-color: rgba(4, 28, 59, .7);
@@ -142,7 +149,7 @@ a:hover {
     margin-left: 10%;
 }
 
-#times-box-header h2{
+#times-box-header h2, #events-box-header h2{
     color: white;
     text-align: center;
     font-size: 250%;
@@ -151,17 +158,32 @@ a:hover {
 
 .times-entry{
     color: white;
-    height: 150px;
     border: solid #041c3b 2px;
     font-size: 150%;
     text-align: center;
-    padding-top: 35px;
-
-
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .times-entry i{
     color: white;
 }
 
+/* 
+#events-box-header{
+    width: 85%;
+    outline: none;
+    overflow: auto;
+    margin-top: 50px;
+    margin-right: 10%;
+    background-color: rgba(4, 28, 59, .7);
+}
 
-
+#events-box{
+    height: 300px;
+    width: 85%;
+    outline: none;
+    overflow: auto;
+    background-color: rgba(4, 28, 59, .7);
+    margin-top: 50px;
+    margin-right: 10%;
+} */
