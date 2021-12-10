@@ -57,6 +57,7 @@ h1, h2 {
     width: 100%;
     background: url('../images/hero-image.jpeg') no-repeat center center;
 
+
 }
 #hero-outer{
     height: 600px;
@@ -111,22 +112,42 @@ a:hover {
     text-decoration: underline;
 }
 
+
+
 #meeting-times{
     height: 600px;
-    background: url('../images/surf-waves.jpeg') no-repeat center center;
+    width: 100% ;
+    background: url('../images/sea-swimmers.jpeg') no-repeat center center;
     overflow: hidden;
-
 }
 
-.times-box{
+
+
+#times-box-header{
+    width: 35%;
+    outline: none;
+    overflow: auto;
+    margin-top: 50px;
+    margin-left: 10%;
+    background-color: rgba(4, 28, 59, .7);
+}
+
+#times-box{
     height: 300px;
     width: 35%;
     outline: none;
     overflow: auto;
     background-color: rgba(4, 28, 59, .7);
-    margin-top: 150px;
+    margin-top: 50px;
     margin-left: 10%;
 }
+
+#times-box-header h2{
+    color: white;
+    text-align: center;
+    font-size: 250%;
+}
+
 
 .times-entry{
     color: white;
@@ -137,6 +158,9 @@ a:hover {
     padding-top: 35px;
 
 
+}
+.times-entry i{
+    color: white;
 }
 
 
