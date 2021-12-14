@@ -50,6 +50,7 @@ h1, h2 {
     text-decoration: underline;
 }
 
+
 /* hero image */
 
 #hero-image{
@@ -191,7 +192,7 @@ a:hover {
 /* footer */
 
 footer{
-    height: 150px;
+    height: 120px;
 }
 
 .social-networks {
@@ -207,4 +208,57 @@ footer{
     margin: 1%;
     padding: 5%;
     color: #041c3b;
+}
+
+/* photo gallery */
+#slider-box{
+    height: 600px;
+    width:60%;
+    /* overflow:hidden; */
+    margin-left: 20%;
+}
+#slider{
+    overflow: hidden;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    left: 0;
+    margin: 0;
+    animation: 20s slider infinite;
+}
+
+#slider figure img{
+    float:left;
+    width: 20%;
+}
+
+@keyframes slider{
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
 }
