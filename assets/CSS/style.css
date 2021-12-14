@@ -212,9 +212,9 @@ footer{
 
 /* photo gallery */
 #slider-box{
-    height: 600px;
-    width:60%;
-    /* overflow:hidden; */
+    height: 700px;
+    width: 60%;
+    overflow:hidden;
     margin-left: 20%;
 }
 #slider{
