@@ -65,12 +65,12 @@ h1, h2 {
     width: 100%;
     position: relative;
 }
-#cover-text, #cover-text h2{
+.cover-text, .cover-text h2{
     color: white;
 
 }
 
-#cover-text{
+.cover-text{   
     font-size: 140%;
     font-family: Poppins, sans-serif;
     letter-spacing: 2px;
@@ -79,9 +79,17 @@ h1, h2 {
     padding-top: 20px;
     padding-left: 20px;
     background-color: rgba(4, 28, 59, .7);
+    position: absolute;
+    z-index: 1;
+}
+#cover-text-home{
     top: 300px;
     left: 150px;
-    position: absolute;
+}
+
+#cover-text-gallery{
+    top: 100px;
+    left: 400px;
 }
 
 /* Introduction */
