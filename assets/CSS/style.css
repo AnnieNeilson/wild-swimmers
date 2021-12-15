@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand&display=swap');
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -13,9 +11,7 @@ body{
     color: #041c3b;
 }
 
-
 /* headings and logo */
-
 
 h1, h2 {
     font-family: Poppins, sans-serif;
@@ -40,17 +36,19 @@ h1, h2 {
     list-style-type: none;
     margin-right: 20px;
 }
+
 #menu, #logo {
     line-height: 75px;
 }
+
 #menu a {
     text-decoration: none;
     color: inherit;
 }
+
 #menu a:hover {
     text-decoration: underline;
 }
-
 
 /* hero image */
 
@@ -58,14 +56,14 @@ h1, h2 {
     height: 600px;
     width: 100%;
     background: url('../images/hero-image.jpeg') no-repeat center center;
-
-
 }
-#hero-outer{
+
+.hero-outer{
     height: 600px;
     width: 100%;
     position: relative;
 }
+
 .cover-text, .cover-text h2{
     color: white;
 
@@ -83,14 +81,10 @@ h1, h2 {
     position: absolute;
     z-index: 1;
 }
+
 #cover-text-home{
     top: 300px;
     left: 150px;
-}
-
-#cover-text-gallery{
-    top: 100px;
-    left: 400px;
 }
 
 /* Introduction */
@@ -115,7 +109,6 @@ h1, h2 {
     margin-top: 50px;
 }
 
-
 a {
     text-decoration: none;
 }
@@ -137,8 +130,6 @@ a:hover {
     float:left ;
     margin: 0 auto;
 }
-
-
 
 #times-box-header, #events-box-header{
     width: 85%;
@@ -165,7 +156,6 @@ a:hover {
     font-size: 250%;
 }
 
-
 .times-entry{
     color: white;
     border: solid #041c3b 2px;
@@ -174,29 +164,10 @@ a:hover {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
 .times-entry i{
     color: white;
 }
-
-/* 
-#events-box-header{
-    width: 85%;
-    outline: none;
-    overflow: auto;
-    margin-top: 50px;
-    margin-right: 10%;
-    background-color: rgba(4, 28, 59, .7);
-}
-
-#events-box{
-    height: 300px;
-    width: 85%;
-    outline: none;
-    overflow: auto;
-    background-color: rgba(4, 28, 59, .7);
-    margin-top: 50px;
-    margin-right: 10%;
-} */
 
 /* footer */
 
@@ -207,14 +178,11 @@ footer{
 }
 
 .social-networks {
-    
     text-align:center ;
-    line-height: center;
 }
 
 .social-networks > li{
     display: inline;
-    
 }
 
 .social-networks i{
@@ -225,15 +193,23 @@ footer{
 }
 
 /* photo gallery */
+
+#cover-text-gallery{
+    top: 100px;
+    left: 400px;
+}
+
 #slider-box{
     height: 700px;
     width: 60%;
     overflow:hidden;
     margin-left: 20%;
 }
+
 #slider{
     overflow: hidden;
 }
+
 #slider figure{
     position: relative;
     width: 500%;
@@ -275,4 +251,12 @@ footer{
     100%{
         left: -400%;
     }
+}
+
+/* sign up page */
+
+#hero-image-sign-up{
+    height: 600px;
+    width: 100%;
+    background: url('../images/signup-bg.jpeg') no-repeat center center;
 }
