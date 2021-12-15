@@ -58,7 +58,7 @@ h1, h2 {
     background: url('../images/hero-image.jpeg') no-repeat center center;
 }
 
-.hero-outer{
+#hero-outer{
     height: 600px;
     width: 100%;
     position: relative;
@@ -73,8 +73,6 @@ h1, h2 {
     font-size: 140%;
     font-family: Poppins, sans-serif;
     letter-spacing: 2px;
-    width: 500px;
-    height: 150px;
     padding-top: 20px;
     padding-left: 20px;
     background-color: rgba(4, 28, 59, .7);
@@ -83,6 +81,8 @@ h1, h2 {
 }
 
 #cover-text-home{
+    width: 500px;
+    height: 150px;
     top: 300px;
     left: 150px;
 }
@@ -195,6 +195,8 @@ footer{
 /* photo gallery */
 
 #cover-text-gallery{
+    width: 400px;
+    height: 125px;
     top: 100px;
     left: 400px;
 }
@@ -255,8 +257,21 @@ footer{
 
 /* sign up page */
 
+#hero-outer-sign-up{
+    height: 800px;
+    width: 100%;
+    position: relative;
+}
+
 #hero-image-sign-up{
-    height: 600px;
+    height: 800px;
     width: 100%;
     background: url('../images/signup-bg.jpeg') no-repeat center center;
+}
+
+#cover-text-sign-up{
+    width: 800px;
+    height: 500px;
+    top: 150px;
+    left: 150px;
 }
