@@ -25,6 +25,7 @@ h1, h2 {
 }
 
 #menu {
+    height: 100px;
     display: flex;
     justify-content: flex-end;
     flex-wrap:wrap;
@@ -38,7 +39,7 @@ h1, h2 {
 }
 
 #menu, #logo {
-    line-height: 75px;
+    line-height: 100px;
 }
 
 #menu a {
@@ -258,13 +259,13 @@ footer{
 /* sign up page */
 
 #hero-outer-sign-up{
-    height: 800px;
+    height: 700px;
     width: 100%;
     position: relative;
 }
 
 #hero-image-sign-up{
-    height: 800px;
+    height: 700px;
     width: 100%;
     background: url('../images/signup-bg.jpeg') no-repeat center center;
 }
@@ -272,6 +273,6 @@ footer{
 #cover-text-sign-up{
     width: 800px;
     height: 500px;
-    top: 150px;
+    top: 90px;
     left: 150px;
 }
