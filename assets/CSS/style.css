@@ -198,8 +198,9 @@ footer{
 #cover-text-gallery{
     width: 400px;
     height: 125px;
-    top: 100px;
+    top: 120px;
     left: 400px;
+    position: absolute;
 }
 
 #slider-box{
