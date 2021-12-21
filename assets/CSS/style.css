@@ -9,6 +9,7 @@ body{
     font-family: Quicksand, sans-serif;
     font-weight: 400;
     color: #041c3b;
+    height: 100%;
 }
 
 /* headings and logo */
@@ -173,9 +174,12 @@ a:hover {
 /* footer */
 
 footer{
-    height: 250px;
+    height: 150px;
     background-color: #041c3b;
-    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display:block;
 }
 
 .social-networks {
@@ -190,6 +194,7 @@ footer{
     font-size: 180%;
     margin: 1px;
     padding: 5%;
+    padding-bottom: 0;
     color: white;
 }
 
@@ -296,4 +301,19 @@ footer{
     background-color: #1165d3;
     color: white;
     display: block;
+}
+
+/* media queiries */
+
+@media screen and (max-width: 1200px){
+    #cover-text-sign-up{
+        width: 60%;
+        height:fit-content;
+    }
+}
+
+@media screen and (max-width: 950px){
+    #menu {
+
+    }
 }
