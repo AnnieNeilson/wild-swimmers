@@ -270,7 +270,7 @@ footer{
 /* sign up page */
 
 #hero-outer-sign-up{
-    height: 700px;
+    height: 100%;
     width: 100%;
     position: relative;
 }
@@ -321,23 +321,36 @@ footer{
         margin: 0 auto;
     }
     #menu {
-        height: 75px;
+        height: 100px;
         display: inline-block;
     }
     #menu li{
-        float: right;
+        float: left;
         font-size: 110%;
         list-style-type: none;
         margin-left: 20px;
         line-height: 100px;
     }
-    /* nav{
-        height: 180px;
-    } */
+
+    #cover-text-gallery{
+        top: 175px;
+        left: 250px;
+        position: absolute;
+    }
+    
+    #cover-text-sign-up{
+        width: 80%;
+        height: 500px;
+        top: 90px;
+        left: 10%;
+    }
 }
 
 @media screen and (max-width: 950px){
     #menu {
-
+        height: 50px;
+    }
+    #menu li {
+        line-height: 50px;
     }
 }
