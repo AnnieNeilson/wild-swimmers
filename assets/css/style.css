@@ -20,9 +20,14 @@ h1, h2 {
     color: #041c3b;
 }
 
-#logo{
+#logo a {
     float: left;
     margin-left: 20px;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+    letter-spacing: 2px;
+    color: #041c3b;
+    font-size: 180%;
 }
 
 #menu {
@@ -310,6 +315,25 @@ footer{
         width: 60%;
         height:fit-content;
     }
+    #slider-box{
+        width: 100%;
+        overflow:hidden;
+        margin: 0 auto;
+    }
+    #menu {
+        height: 75px;
+        display: inline-block;
+    }
+    #menu li{
+        float: right;
+        font-size: 110%;
+        list-style-type: none;
+        margin-left: 20px;
+        line-height: 100px;
+    }
+    /* nav{
+        height: 180px;
+    } */
 }
 
 @media screen and (max-width: 950px){
