@@ -311,19 +311,14 @@ footer{
 /* media queiries */
 
 @media screen and (max-width: 1200px){
-    #cover-text-sign-up{
-        width: 60%;
-        height:fit-content;
-    }
-    #slider-box{
-        width: 100%;
-        overflow:hidden;
-        margin: 0 auto;
-    }
+
+    /* nav changes */
+
     #menu {
         height: 100px;
         display: inline-block;
     }
+
     #menu li{
         float: left;
         font-size: 110%;
@@ -332,11 +327,15 @@ footer{
         line-height: 100px;
     }
 
+    /* gallery changes */
+
     #cover-text-gallery{
         top: 175px;
         left: 250px;
         position: absolute;
     }
+
+    /* sign-up changes */
     
     #cover-text-sign-up{
         width: 80%;
@@ -344,13 +343,148 @@ footer{
         top: 90px;
         left: 10%;
     }
+
+    #cover-text-sign-up{
+        width: 60%;
+        height:fit-content;
+    }
+
+    #slider-box{
+        width: 100%;
+        overflow:hidden;
+        margin: 0 auto;
+    }
 }
 
-@media screen and (max-width: 950px){
+@media screen and (max-width: 929px){
+    
+    /* nav changes */
+
+    #menu, #logo {
+        line-height: 75px;
+    }
+    #logo a {
+        margin-left: 10px;
+        font-size: 130%;
+    }
     #menu {
-        height: 50px;
+        height: 75px;
     }
     #menu li {
-        line-height: 50px;
+        line-height: 75px;
+        font-size: 100%;
+        margin-left: 5px;
     }
+
+    /* homepage changes */
+
+    #hero-image, #hero-outer{
+        height: 350px;
+    }
+
+    .about{
+        font-size: 150%;
+    }
+    
+    #cover-text-home{
+        width: 80%;
+        height: 150px;
+        top: 25px;
+        left: 5%;
+    }
+
+    #introduction{
+        width: 80%;
+    }
+
+    #introduction h2{
+        font-size: 200%;
+    }
+
+    #times h2 {
+        font-size: 175%;
+    }
+
+    /* gallery changes */
+
+    #slider-box{
+        height: 60vh;
+    }
+
+    #cover-text-gallery {
+        width: 80%;
+        height: 70px;
+        top: 140px;
+        left: 20px;
+        position: absolute;
+    }
+    .cover-text{
+        font-size:100%;
+        padding-top:10px;
+        padding-left: 5%;
+    }
+
+    /* sign-up page */
+
+    .text-input{
+        display: inherit;
+        width: 90%;
+        margin:0;
+    }
+
+    #cover-text-sign-up{
+        width: 80%;
+        height: 560px;
+        top: 25px;
+        left: 7%;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+
+    #logo a {
+        font-size: 110%;
+    }
+
+    #menu li {
+        line-height: 50px;
+        font-size: 80%;
+    }
+
+    .cover-text{
+        font-size:80%;
+        padding-top: 2%;
+        padding-left: 5%;
+    }
+
+    #cover-text-home{
+        height: 120px;
+    }
+
+    #cover-text-gallery{
+        height: 60px;
+    }
+    
+    #cover-text-sign-up{
+        height: 480px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 300px){
+    #logo a {
+        font-size: 95%;
+    }
+
+    #menu{
+        height: 50px;
+    }
+    
+    #menu li {
+        line-height: 50px;
+        font-size: 65%;
+    }
+
 }
