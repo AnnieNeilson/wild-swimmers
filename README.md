@@ -1,108 +1,139 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Wild Swimmers
 
-Welcome AnnieNeilson,
+[This link takes you to my project.](https://annieneilson.github.io/wild-swimmers/index.html)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This website is to advertise a wild swimming club, it's aimed at people who are interested in swimming and may be looking for a hobby. It is for people of all ages living in the South Shields area, with any level of experience.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+On visiting this website the user will be able to see a brief introduction to wild swimming, see meeting times, special events, and social media links.
+There are pages to view a photo gallery of members and a sign up page.
 
-## Gitpod Reminders
+ami.responsivedesign.is screenshots -here
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Features
 
-`python3 -m http.server`
+# Header
 
-A blue button should appear to click: _Make Public_,
+-The header is featured at the top of the page, to the left it displays the club name, 'Wild Swimmers' that links to the home page. 
+-The navigation bar is positioned on the right with links to the other pages of the site. 
+-The text is #041c3b a dark blue colour to fit with the colour scheme, the font is the same as all the headings throughout the site and when hovered over the navigation links become underlined.
 
-Another blue button should appear to click: _Open Browser_.
+screenshot of header
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+0 hero image and cover text
 
-A blue button should appear to click: _Make Public_,
+-The hero image is an aerial view photograph of several sea swimmers. There is a text box which briefly clarifies the purpose of the site by stating the name and locations of the club.
+-The text and background colours are swapped to keep with the colour scheme and to ensure the text is easily readable, the background is translucent.
 
-Another blue button should appear to click: _Open Browser_.
+screenshot of hero image
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+0 About Section
 
-To log into the Heroku toolbelt CLI:
+-The about section has four short paragraphs that cover the basics of the club, introducing wild swimming, who can participate, what is needed and how easy it is to get involved. 
+The purpose of this section is to introduce the club and encourage people to join.
+There is a link included to take the user to the sign-up page.
+The font and colours continue to follow the theme.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+screenshot of about section
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+0 times section
 
-------
+-The purpose of this section is to lay out information of meetings for the user in an easily understandable way. This section has two scrollable boxes one with information on regular meetings and one with information on special events.
+The scrollable feature limits the length of this section and ensures both boxes are a uniform size for a neater layout.
+Each event specifies the day, time and location, there are icons to help clarify the information.
+The background has a different aerial view photo of swimmers that fits the theme.
 
-## Release History
+screenshot of times section
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+0 footer
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+The footer has the same background colour as the text boxes, however it is opaque. It has links to social media sites embedded in logos, which are white to fit with the colour scheme. All links open in a new tab so as not to lead the user away from the site.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+screenshot of footer
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+0 gallery page
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+-The gallery page, which can be navigated to using the nav bar and clicking gallery, has the uniform header. Underneath there is a photo gallery that automatically flips through photos.
+-The point of this feature is to showcase photos of the members, showing happy swimmers enjoying themselves.
+-There is a text box with the uniform styles, that headlines the gallery.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+screenshot of gallery
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+0 sign-up page
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+-The sign up page, which can be navigated to using the nav bar and clicking Sign Up, has the uniform header.
+-The hero image of this page is an image of many swimmers walking, running and jumping into the sea, the image is brighter than other background images used,
+but still fits with the theme and colour scheme.
+-There is a text box with the uniform styles, that has some text explaining the benefits of signing up and a sign up form.
+-The form will show error messages if the information entered is not appropriate.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+screenshot of sign up form
+screenshots of error messages
+screenshot of completed form
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+testing
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+-I tested that the page works in multiple browsers: Chrome, Brave, Firefox and Internet Explorer.
+-I checked that the site is responsive and functions well on different standard screen sizes using the devtools device toolbar.
+-I checked all internal and external links are working properly.
+-I made sure all the text is free from errors, clear and readable.
+-I have confirmed the sign up form works, requires appropriate entries and that the submit button works.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
 
-## FAQ about the uptime script
+Bugs
+No bugs
 
-**Why have you added this script?**
+Unfixed Bugs
+No unfixed bugs
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+validator testing links 
 
-**How will this affect me?**
+-HTML
+No errors were found when passing through the official W3C HTML validator
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+-CSS
+No errors were found when passing through the official W3C CSS validator
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+-Accessibility- lighthouse scores
+	-When generating a lighthouse report, the performance score fluctuated between 69-89. I tried researching how to increase the score, but found the solutions
+were mostly regarding JavaScript, which is not included in my site. I generated another report on a different computer and wifi connection and the score came back 99. I'm still unsure of the cause of the issue.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+lighthouse scores
 
-**So….?**
+-explain issues with performance
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+deployment steps
 
-**Can I opt out?**
+-The site was deployed to GitHub pages. The steps to deploy are as follows:
+	-In the GitHub repository navigate to the Settings tab
+	-From the source section drop-down menu, select the Master Branch
+	-Once the master branch has been selected, the page provided the link to the completed website.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+credits
 
-**Anything more?**
+Media:
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+The fonts used are from Google Fonts. : https://fonts.google.com/
 
----
+icons:
+The icons used are from Font Awesome. : https://fontawesome.com/
 
-Happy coding!
+images:
+The images used are from Pexels. : https://pexels.com
+
+Content:
+
+reordering menu list elements:
+To reorder the items in the navigation bar I used code from StackOverflow
+https://stackoverflow.com/questions/36251303/ordering-nav-list-items-when-using-float-right
+
+photo gallery:
+I followed a tutorial to make the sliding photo gallery. :
+https://www.youtube.com/watch?v=qDww4CbxtD4
+
+The code for the sign-up form was based on the LoveRunning project. : 
+https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/4d85cd1a2c57485abbd8ccec8c00732c/
