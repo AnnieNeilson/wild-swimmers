@@ -71,6 +71,39 @@ There are three pages in total: Home, Gallery and Sign-up. These pages can be ac
 ![screenshot of sign up form](assets/images/sign-up.PNG)
 ![screenshots of error messages and completed form](assets/images/sign-up-tests.png)
 
+
+## User Experience (UX)
+### User stories- Visitor Goals
+
+* As a first time visitor:
+	* I want to understand the purpose of the site and learn more about the club, quickly and easily.
+	* I want to know what the site offers and be able to easily navigate throughout the site.
+	* I want to find out how to keep in touch with the club. 
+
+* As a returning visitor:
+	* I want to locate their social media links to see how large the club is and if there is anyone involved I may know.
+	* I want to find the best way to get in contact with the club with any questions I may have.
+	* I want to find community links.
+
+* As a frequent visitor:
+	* I want to check to see the updated events, either regular meetings or special events.
+	* I want to sign up to the club so that I am emailed any major updates and/or changes to the club.
+
+## Design
+
+### Colour Scheme
+The two main colours used are dark blue and white. These colours contrast well against each other and fit with the ocean theme of the site.
+
+### Typography
+The main font is Quicksand, with Poppins used as the header font with Sans Serif as the fallback font in case, for any reason, the font isn't imported into the site correctly. This is consistent throughout the whole website. The chosen fonts are rounded and well spaced, making it both aesthetically appealing and readable.
+
+### Imagery
+The hero and background images used on the site are all of swimmers in order to be relevant and consistent with the theme. The images are not too bold or busy so it will not distract from the main content.
+ 
+
+
+
+
 ## Testing
 
 * I tested that the page works in multiple browsers: Chrome, Brave, Firefox and Internet Explorer.
